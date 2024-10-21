@@ -5,9 +5,7 @@ import { MessageStore } from "../interfaces/MessageStore";
 import Message from "../interfaces/Message";
 import { io } from "socket.io-client";
 
-const socket = io(
-  "https://chat-converter-vj9v.vercel.app/?vercelToolbarCode=jJGtl1S0bv8s3NQ"
-);
+const socket = io("https://idyllic-puffpuff-d13959.netlify.app/");
 
 const useStore = create<MessageStore>((set) => ({
   messages: [],
