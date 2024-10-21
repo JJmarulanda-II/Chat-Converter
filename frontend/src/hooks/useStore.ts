@@ -5,7 +5,7 @@ import { MessageStore } from "../interfaces/MessageStore";
 import Message from "../interfaces/Message";
 import { io } from "socket.io-client";
 
-const socket = io("https://idyllic-puffpuff-d13959.netlify.app/");
+const socket = io("http://localhost:3000/");
 
 const useStore = create<MessageStore>((set) => ({
   messages: [],
