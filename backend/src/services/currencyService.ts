@@ -13,7 +13,7 @@ const currencyService = async (
 ) => {
   try {
     const URL = `${BASE_URL_CURRENCY}/${from.toUpperCase()}/${to.toUpperCase()}/json?quantity=${quantity}&key=${CURRENCY_API_KEY}`;
-    const response = await axios.get(URL);
+    const response = await axios.get<any>(URL);
     console.log(response.data.result);
     const result = response.data.result;
 
