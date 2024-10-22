@@ -1,6 +1,6 @@
 # Chat P2P con Convertidor de Divisas
 
-Este proyecto se a desplegadoe en linea, mediante VERCEL que es un plataforma que aloja datos en la nube y se podra visualizar atravez de este Link: https://chat-converter.onrender.com
+Este proyecto se a desplegadoe en linea, mediante VERCEL que es un plataforma que aloja datos en la nube y se podra visualizar atravez de este Link:(https://chat-converter-frontend.vercel.app/)
 
 Este proyecto es una aplicación web de chat peer-to-peer que incluye un convertidor de divisas en tiempo real utilizando una API externa. Utiliza WebSockets para la comunicación en tiempo real y PostgreSQL para el almacenamiento de datos.
 
