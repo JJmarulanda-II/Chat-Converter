@@ -10,13 +10,13 @@ const socket = io("http://localhost:3000/");
 const useStore = create<MessageStore>((set) => ({
   messages: [],
   userName: "",
-  setUserName: (userName: string) => set({ userName }), // Puedes simplificar esto
+  setUserName: (userName: string) => set({ userName }),
   addMessage: (message: Message) =>
     set((state) => ({
       messages: [...state.messages, message],
     })),
   chatStarted: false,
-  setChatStarted: (started: boolean) => set({ chatStarted: started }), // Corrige aquí
+  setChatStarted: (started: boolean) => set({ chatStarted: started }),
   socket,
 }));
 

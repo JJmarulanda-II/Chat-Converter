@@ -1,7 +1,7 @@
 import express from "express";
 import { Server as SocketServer } from "socket.io";
 import http from "http";
-import SocketController from "../src/controllers/SocketController";
+import SocketController from "./controllers/SocketController";
 import dotenv from "dotenv";
 
 // Cargar las variables de entorno desde el archivo .env
