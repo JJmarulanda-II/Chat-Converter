@@ -88,8 +88,9 @@ Este proyecto es una aplicación web de chat peer-to-peer que incluye un convert
 ### Pantalla de Bienvenida
 
 La aplicación comienza con una pantalla de bienvenida atractiva que introduce a los usuarios al Chat de Divisas:
+![Captura](https://github.com/user-attachments/assets/7b9dfc6a-6c1b-40ac-9e48-3b6218fdb99c)
 
-![Pantalla de Bienvenida del Chat de Divisas](ruta/a/la/imagen/de/bienvenida.png)
+
 
 Características de la pantalla de bienvenida:
 - Título prominente: "Bienvenido al Chat de Divisas"
